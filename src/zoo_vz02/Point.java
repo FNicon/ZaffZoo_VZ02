@@ -6,64 +6,63 @@ package zoo_vz02;
  * <br>File Name : Cell.java
  */
 public class Point {
-  private int X;
-  private int Y;
-  private char CC;
+  private int x;
+  private int y;
+  private char cc;
   /**
    * Konstruktor tanpa parameter
-   *
    */
   public Point(){
-    X = 0;
-    Y = 0;
-    CC = ' ';
+    x = 0;
+    y = 0;
+    cc = ' ';
   }
   /** Konstruktor dengan parameter
-   * @param _X nilai absis yang akan diinputkan
-   * @param _Y nilai ordinat yang akan diinputkan
-   * @param _CC karakter yang akan diisikan
+   * @param _x nilai absis yang akan diinputkan
+   * @param _y nilai ordinat yang akan diinputkan
+   * @param _cc karakter yang akan diisikan
    */
-  public Point(int _X, int _Y, char _CC){
-    X = _X;
-    Y = _Y;
-    CC = _CC;
+  public Point(int _x, int _y, char _cc){
+    x = _x;
+    y = _y;
+    cc = _cc;
   }
-  /** Getter X
-   * @return besarnya nilai X
+  /** Getter x
+   * @return besarnya nilai x
    */
   public int GetX(){
-    return X;
+    return x;
   }
-  /** Getter Y
-   *  @return besarnya nilai Y
+  /** Getter y
+   *  @return besarnya nilai y
    */
   public int GetY(){
-    return Y;
+    return y;
   }
   /**
    * Getter karakter
    * @return karakter pada point tersebut
    */
   public char GetChar(){
-    return CC;
+    return cc;
   }
   /**
    * Setter karakter
    * @param c karakter yang akan dimasukkan
    */
   public void SetChar(char c){
-    CC = c;
+    cc = c;
   }
-  /** Setter X
-   * @param _X nilai x yang baru
+  /** Setter x
+   * @param _x nilai x yang baru
    */
-  public void SetX(int _X){
-    X = _X;
+  public void SetX(int _x){
+    x = _x;
   }
-  /** Setter Y
-   * @param _Y nilai y yang baru
+  /** Setter y
+   * @param _y nilai y yang baru
    */
-  public void SetY(int _Y){
-    Y = _Y;
+  public void SetY(int _y){
+    y = _y;
   }
 }
