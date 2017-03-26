@@ -1,0 +1,57 @@
+List *-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+@startuml
+skinparam classAttributeIconSize 0
+skinparam class {
+BackgroundColor White
+ArrowColor Black
+BorderColor Black
+}
+Cage *-- Point
+
+class Cage {
+-Point ani_loc[]
+-String ani_exp[]
+-char[] list_musuh
+-int jumlah_hewan
+-Point list_habitat[]
+-int jumlah_habitat
+-int tipe_kandang
+-final int max_hewan = 20
+-final int max_habitat = 50
+
+
++Cage()
++Point GetAniLoc(int i)
++String GetAniExp(int i)
++void SetTipeKandang(int i)
++int GetTipeKandang()
++void SetHabitat(int x, int y, char render, int tipe_habitat){
++Point GetHabitat(int idx){
++void SetHewan(int i, int j,int[] tipe_hewan, char render, String exp, char l_musuh)
++StringBuffer GetExperience()
++void SemuaGerak(){
++void HewanGerak(int id)
++boolean AvailGerak(int x, int y)
+}
+
+class Point {
+-int x;
+-int y;
+-char cc;
++Point()
++Point(int _x, int _y, char _cc)
++int GetX()
++int GetY()
++char GetChar()
++void SetChar(char c)
++void SetX(int _x)
++void SetY(int _y)
+}
+
+@enduml

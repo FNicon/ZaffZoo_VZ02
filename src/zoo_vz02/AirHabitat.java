@@ -1,5 +1,5 @@
-package zoo_vz02;
 
+package zoo_vz02;
 /**
  * Kelas AirHabitat ini menyimpan data tentang habitat udara dari suatu zoo
  * <br>Kelas ini tergabung dalam package zoo_vz02

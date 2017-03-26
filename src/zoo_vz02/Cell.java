@@ -32,7 +32,9 @@ public class Cell {
     }
   }
 
+
   /**
+
    * Konstruktor Cell dengan parameter
    * <br> isi default karakter nya adalah blank
    * @param _X ukuran absis cell
