@@ -1,13 +1,14 @@
 package zoo_vz02;
 
 /**
- * Kelas Point ini menyimpan info x dan y dari suatu titik.
- * @author 13515017 / Putu Arya Pradipta
- * @since 2017-03-06
+ * Kelas Cell ini menyimpan informasi x, y, dan isi karakter dari titik tersebut
+ * <br>Created by 13515017 / Putu Arya Pradipta on 3/26/2017.
+ * <br>File Name : Cell.java
  */
 public class Point {
   private int X;
   private int Y;
+  private char CC;
   /**
    * Konstruktor tanpa parameter
    *
@@ -15,14 +16,17 @@ public class Point {
   public Point(){
     X = 0;
     Y = 0;
+    CC = ' ';
   }
   /** Konstruktor dengan parameter
    * @param _X nilai absis yang akan diinputkan
    * @param _Y nilai ordinat yang akan diinputkan
+   * @param _CC karakter yang akan diisikan
    */
-  public Point(int _X, int _Y){
+  public Point(int _X, int _Y, char _CC){
     X = _X;
     Y = _Y;
+    CC = _CC;
   }
   /** Getter X
    * @return besarnya nilai X
