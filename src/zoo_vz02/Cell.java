@@ -13,11 +13,25 @@ public class Cell {
     Size_X = 50;
     Size_Y = 50;
     P = new Point[Size_X][Size_Y];
+    int i, j;
+    for (i=0; i<Size_X; i++){
+      for(j=0; j<Size_Y; j++){
+        P[i][j] = new Point(i,j,' ');
+      }
+    }
   }
   public Cell(int _X, int _Y){
     Size_X = _X;
     Size_Y = _Y;
     P = new Point[Size_X][Size_Y];
+    int i, j;
+    for (i=0; i<Size_X; i++){
+      for(j=0; j<Size_Y; j++){
+        P[i][j] = new Point(i,j,' ');
+      }
+    }
   }
-
+  public void SetPoint(int i, int j, char cc){
+    P[i][j].SetChar(cc);
+  }
 }

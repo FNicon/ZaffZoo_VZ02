@@ -40,6 +40,20 @@ public class Point {
   public int GetY(){
     return Y;
   }
+  /**
+   * Getter karakter
+   * @return karakter pada point tersebut
+   */
+  public char GetChar(){
+    return CC;
+  }
+  /**
+   * Setter karakter
+   * @param c karakter yang akan dimasukkan
+   */
+  public void SetChar(char c){
+    CC = c;
+  }
   /** Setter X
    * @param _X nilai x yang baru
    */
