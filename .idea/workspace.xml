@@ -2,12 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ce23b44-cf46-4577-a945-9117c4a22c77" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/JUnit5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zoo_vz02/PointTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZaffZoo_VZ02/zoo_vz02/Point.class" afterPath="$PROJECT_DIR$/out/production/ZaffZoo_VZ02/zoo_vz02/Point.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zoo_vz02/AirHabitat.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zoo_vz02/AirHabitatTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zoo_vz02/CageTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zoo_vz02/Entrance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zoo_vz02/EntranceTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zoo_vz02/Exit.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zoo_vz02/ExitTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zoo_vz02/LandHabitat.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zoo_vz02/LandHabitatTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zoo_vz02/Park.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zoo_vz02/ParkTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zoo_vz02/Restaurant.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zoo_vz02/RestaurantTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zoo_vz02/Road.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zoo_vz02/RoadTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zoo_vz02/WaterHabitat.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zoo_vz02/WaterHabitatTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZaffZoo_VZ02.iml" afterPath="$PROJECT_DIR$/ZaffZoo_VZ02.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zoo_vz02/Point.java" afterPath="$PROJECT_DIR$/src/zoo_vz02/Point.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zoo_vz02/Cage.java" afterPath="$PROJECT_DIR$/src/zoo_vz02/Cage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zoo_vz02/Cell.java" afterPath="$PROJECT_DIR$/src/zoo_vz02/Cell.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zoo_vz02/PointTest.java" afterPath="$PROJECT_DIR$/src/zoo_vz02/PointTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,63 +35,102 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Cell.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zoo_vz02/Cell.java">
+      <file leaf-file-name="WaterHabitat.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/zoo_vz02/WaterHabitat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+              <folding>
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#536#537#0" expanded="true" />
+                <element signature="e#555#556#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WaterHabitatTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/zoo_vz02/WaterHabitatTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Road.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/zoo_vz02/Road.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="22" selection-end-column="5" />
               <folding>
-                <element signature="e#763#764#0" expanded="true" />
-                <element signature="e#792#793#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zoo_vz02/Cage.java">
+      <file leaf-file-name="RoadTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/zoo_vz02/RoadTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="17" column="3" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Entrance.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/zoo_vz02/Entrance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="22" selection-end-column="5" />
               <folding>
-                <element signature="e#897#898#0" expanded="true" />
-                <element signature="e#924#925#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Point.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zoo_vz02/Point.java">
+      <file leaf-file-name="EntranceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/zoo_vz02/EntranceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+            <state relative-caret-position="119">
+              <caret line="9" column="61" lean-forward="true" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Exit.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/zoo_vz02/Exit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="22" selection-end-column="5" />
               <folding>
-                <element signature="e#713#714#0" expanded="true" />
-                <element signature="e#731#732#0" expanded="true" />
-                <element signature="e#804#805#0" expanded="true" />
-                <element signature="e#822#823#0" expanded="true" />
-                <element signature="e#922#923#0" expanded="true" />
-                <element signature="e#941#942#0" expanded="true" />
-                <element signature="e#1049#1050#0" expanded="true" />
-                <element signature="e#1065#1066#0" expanded="true" />
-                <element signature="e#1147#1148#0" expanded="true" />
-                <element signature="e#1163#1164#0" expanded="true" />
-                <element signature="e#1245#1246#0" expanded="true" />
-                <element signature="e#1261#1262#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
+                <element signature="e#454#455#0" expanded="true" />
+                <element signature="e#473#474#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PointTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/zoo_vz02/PointTest.java">
+      <file leaf-file-name="RestaurantTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/zoo_vz02/RestaurantTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="41" column="14" lean-forward="true" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -86,18 +140,23 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit3 Test Class" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
-        <option value="JUnit3 Test Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>CC</find>
+      <find>avail_gerak</find>
+      <find>semua_gerak</find>
     </findStrings>
     <replaceStrings>
       <replace>cc</replace>
+      <replace>AvailGerak</replace>
+      <replace>HewanGerak</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -118,12 +177,28 @@
         <option value="$PROJECT_DIR$/src/animal/Lion.java" />
         <option value="$PROJECT_DIR$/src/zoo/point.java" />
         <option value="$PROJECT_DIR$/src/zoo_vz02/point.java" />
-        <option value="$PROJECT_DIR$/src/zoo_vz02/LandHabitat.java" />
-        <option value="$PROJECT_DIR$/src/zoo_vz02/Cage.java" />
-        <option value="$PROJECT_DIR$/src/zoo_vz02/Cell.java" />
         <option value="$PROJECT_DIR$/src/zoo_vz02/Point.java" />
         <option value="$PROJECT_DIR$/src/zoo_vz02/CellTest.java" />
         <option value="$PROJECT_DIR$/src/zoo_vz02/PointTest.java" />
+        <option value="$PROJECT_DIR$/src/zoo_vz02/Cell.java" />
+        <option value="$PROJECT_DIR$/src/zoo_vz02/CageTest.java" />
+        <option value="$PROJECT_DIR$/src/zoo_vz02/Cage.java" />
+        <option value="$PROJECT_DIR$/src/zoo_vz02/LandHabitat.java" />
+        <option value="$PROJECT_DIR$/src/zoo_vz02/LandHabitatTest.java" />
+        <option value="$PROJECT_DIR$/src/zoo_vz02/AirHabitatTest.java" />
+        <option value="$PROJECT_DIR$/src/zoo_vz02/AirHabitat.java" />
+        <option value="$PROJECT_DIR$/src/zoo_vz02/WaterHabitat.java" />
+        <option value="$PROJECT_DIR$/src/zoo_vz02/WaterHabitatTest.java" />
+        <option value="$PROJECT_DIR$/src/zoo_vz02/RoadTest.java" />
+        <option value="$PROJECT_DIR$/src/zoo_vz02/Road.java" />
+        <option value="$PROJECT_DIR$/src/zoo_vz02/Entrance.java" />
+        <option value="$PROJECT_DIR$/src/zoo_vz02/EntranceTest.java" />
+        <option value="$PROJECT_DIR$/src/zoo_vz02/Exit.java" />
+        <option value="$PROJECT_DIR$/src/zoo_vz02/ExitTest.java" />
+        <option value="$PROJECT_DIR$/src/zoo_vz02/ParkTest.java" />
+        <option value="$PROJECT_DIR$/src/zoo_vz02/Park.java" />
+        <option value="$PROJECT_DIR$/src/zoo_vz02/Restaurant.java" />
+        <option value="$PROJECT_DIR$/src/zoo_vz02/RestaurantTest.java" />
       </list>
     </option>
   </component>
@@ -209,15 +284,15 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="zoo_vz02" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
-      <recent name="junit.framework.TestCase" />
       <recent name="" />
+      <recent name="junit.framework.TestCase" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -492,6 +567,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8ce23b44-cf46-4577-a945-9117c4a22c77" name="Default" comment="" />
@@ -528,14 +606,45 @@
       <option name="project" value="LOCAL" />
       <updated>1490510714845</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="tambah JUnit dan PointTest.java">
+      <created>1490515025194</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1490515025194</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_ZaffZoo_VZ02 - 2017.03.26 at 14h 55m 49s.xml">
+    <history-entry file="All_in_ZaffZoo_VZ02 - 2017.03.26 at 17h 54m 39s.xml">
       <configuration name="All in ZaffZoo_VZ02" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_ZaffZoo_VZ02 - 2017.03.26 at 14h 56m 11s.xml">
+    <history-entry file="All_in_ZaffZoo_VZ02 - 2017.03.26 at 18h 09m 35s.xml">
+      <configuration name="All in ZaffZoo_VZ02" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_ZaffZoo_VZ02 - 2017.03.26 at 18h 13m 11s.xml">
+      <configuration name="All in ZaffZoo_VZ02" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_ZaffZoo_VZ02 - 2017.03.26 at 18h 19m 21s.xml">
+      <configuration name="All in ZaffZoo_VZ02" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_ZaffZoo_VZ02 - 2017.03.26 at 18h 19m 44s.xml">
+      <configuration name="All in ZaffZoo_VZ02" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_ZaffZoo_VZ02 - 2017.03.26 at 19h 07m 52s.xml">
+      <configuration name="All in ZaffZoo_VZ02" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_ZaffZoo_VZ02 - 2017.03.26 at 19h 13m 04s.xml">
+      <configuration name="All in ZaffZoo_VZ02" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_ZaffZoo_VZ02 - 2017.03.26 at 19h 17m 12s.xml">
+      <configuration name="All in ZaffZoo_VZ02" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_ZaffZoo_VZ02 - 2017.03.26 at 19h 28m 39s.xml">
+      <configuration name="All in ZaffZoo_VZ02" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_ZaffZoo_VZ02 - 2017.03.26 at 19h 44m 33s.xml">
       <configuration name="All in ZaffZoo_VZ02" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -567,8 +676,8 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26172465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15128593" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -590,7 +699,8 @@
     <MESSAGE value="update Point.java" />
     <MESSAGE value="update Cell.java" />
     <MESSAGE value="update Cage.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="update Cage.java" />
+    <MESSAGE value="tambah JUnit dan PointTest.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="tambah JUnit dan PointTest.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -633,25 +743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/LandHabitat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/Cage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#924#925#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ZaffZoo_VZ02.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-210">
@@ -660,10 +751,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/CellTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/PointTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/CageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/Cell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding>
+            <element signature="e#1541#1542#0" expanded="true" />
+            <element signature="e#1570#1571#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/zoo_vz02/Point.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        <state relative-caret-position="85">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding>
             <element signature="e#713#714#0" expanded="true" />
             <element signature="e#731#732#0" expanded="true" />
@@ -681,31 +811,173 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/CellTest.java">
+    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/LandHabitatTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="255">
+          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/Cell.java">
+    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/AirHabitat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        <state relative-caret-position="187">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/PointTest.java">
+    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/Cage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="41" column="14" lean-forward="true" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+        <state relative-caret-position="102">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/LandHabitat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/WaterHabitat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/WaterHabitatTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/RoadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="3" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/Road.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/Entrance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/AirHabitatTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/ExitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/ParkTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="61" lean-forward="false" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/Park.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/EntranceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="61" lean-forward="true" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/RestaurantTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/Restaurant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding>
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/Exit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
           </folding>
         </state>
       </provider>
