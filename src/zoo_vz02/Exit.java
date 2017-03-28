@@ -10,6 +10,7 @@ package zoo_vz02;
  * <br>File Name : Exit.java
  */
 public class Exit {
+  private Point p;
   private char cc;
 
   /**
@@ -17,7 +18,16 @@ public class Exit {
    * mengisi cc dengan '-'
    */
   public Exit(){
+    p = new Point();
     cc = '-';
+  }
+
+  public Exit(int x, int y){
+    cc = '-';
+    p = new Point (x,y,cc);
+  }
+  public Point GetPoint(){
+    return p;
   }
 
   /**

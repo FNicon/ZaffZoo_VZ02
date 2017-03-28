@@ -7,6 +7,7 @@ package zoo_vz02;
  * <br>File Name : Entrance.java
  */
 public class Entrance {
+  private Point p;
   private char cc;
 
   /**
@@ -14,7 +15,15 @@ public class Entrance {
    * mengisi cc dengan '-'
    */
   public Entrance() {
+    p = new Point();
     cc = '-';
+  }
+  public Entrance(int x, int y){
+    cc = '-';
+    p = new Point(x,y,cc);
+  }
+  public Point GetPoint(){
+    return p;
   }
 
   /**

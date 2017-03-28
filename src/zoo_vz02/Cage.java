@@ -11,12 +11,13 @@ import java.util.Random;
  */
 public class Cage {
   private Point ani_loc[];
-  private String ani_exp[];
+  private StringBuffer ani_exp[];
   private char[] list_musuh;
   private int jumlah_hewan;
   private Point list_habitat[];
   private int jumlah_habitat;
   private int tipe_kandang;
+  private int total_makanan[];
   private final int max_hewan = 20;
   private final int max_habitat = 50;
 
@@ -28,9 +29,14 @@ public class Cage {
   public Cage(){
     jumlah_hewan = 0;
     ani_loc = new Point[max_hewan];
-    ani_exp = new String[max_hewan];
+    ani_exp = new StringBuffer[max_hewan];
     list_musuh = new char[max_hewan];
     list_habitat = new Point[max_habitat];
+    total_makanan = new int[4];
+    int i;
+    for (i = 0; i < 4; i++){
+      total_makanan[i] = 0;
+    }
     jumlah_habitat = 0;
     tipe_kandang = -1;
   }
@@ -44,7 +50,7 @@ public class Cage {
     return ani_loc[i];
   }
 
-  public String GetAniExp(int i){
+  public StringBuffer GetAniExp(int i){
     return ani_exp[i];
   }
   public void SetTipeKandang(int i){
@@ -53,8 +59,14 @@ public class Cage {
     }
   }
 
+  public int GetJumlahHewan(){
+    return jumlah_hewan;
+  }
   public int GetTipeKandang(){
     return tipe_kandang;
+  }
+  public int GetJumlahHabitat(){
+    return jumlah_habitat;
   }
 
   public void SetHabitat(int x, int y, char render, int tipe_habitat){
@@ -74,8 +86,10 @@ public class Cage {
    * @param render karakter dari hewan tersebut
    * @param exp experience yang dihasilkan
    * @param l_musuh musuh dari hewan yang akan diset ke dalam cage
+   * @param tipe_makanan tipe makanan dari hewan tersebut (1 herbi 2 karni 3 omni)
+   * @param jumlah_makanan jumlah banyaknya kebutuhan makanan
    */
-  public void SetHewan(int i, int j,int[] tipe_hewan, char render, String exp, char l_musuh){
+  public void SetHewan(int i, int j,int[] tipe_hewan, char render, StringBuffer exp, char l_musuh, int tipe_makanan, int jumlah_makanan){
     // cek apakah hewan tersebut dapat dimasukkan ke dalam kandang
     if(tipe_hewan[tipe_kandang] == 1){
       // cari musuh
@@ -89,14 +103,20 @@ public class Cage {
         }
       }
       if (!musuh){
-        ani_loc[jumlah_hewan] = new Point(i,j,render);
-        ani_exp[jumlah_hewan] = exp;
-        list_musuh[jumlah_hewan] = l_musuh;
-        jumlah_hewan++;
+        if((int)(jumlah_habitat * 0.3) > (jumlah_hewan)) {
+          ani_loc[jumlah_hewan] = new Point(i, j, render);
+          ani_exp[jumlah_hewan] = exp;
+          list_musuh[jumlah_hewan] = l_musuh;
+          jumlah_hewan++;
+          total_makanan[tipe_makanan] = total_makanan[tipe_makanan] + jumlah_makanan;
+        }
       }
     }
   }
 
+  public int[] GetTotalMakan(){
+    return total_makanan;
+  }
   public StringBuffer GetExperience(){
     StringBuffer str = new StringBuffer();
     int i;
@@ -166,4 +186,19 @@ public class Cage {
     }
     return (slotava && avail);
   }
+
+  public boolean IsXYHabitat(int x, int y){
+    boolean found = false;
+    int i = 0;
+    while((!found) && (i < jumlah_habitat)){
+      if ((list_habitat[i].GetX() == x) && (list_habitat[i].GetY() == y)){
+        found = true;
+      } else {
+        i++;
+      }
+    }
+    return found;
+  }
+
+
 }

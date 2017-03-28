@@ -7,16 +7,26 @@ package zoo_vz02;
  * <br>File Name : Road.java
  */
 public class Road {
+  private Point p;
   private char cc;
 
   /**
    * Konstruktor tanpa parameter
-   * mengisi cc dengan '-'
+   * mengisi cc dengan '-' dan membuat point kosong
    */
   public Road(){
+    p = new Point();
     cc = '-';
   }
 
+  public Road(int x, int y){
+    cc = '-';
+    p = new Point(x,y,cc);
+  }
+
+  public Point GetPoint(){
+    return p;
+  }
   /**
    * Getter karakter render
    * @return karakter yang akan dirender ke layar

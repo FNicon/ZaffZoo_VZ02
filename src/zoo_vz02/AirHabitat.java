@@ -13,6 +13,7 @@ public class AirHabitat {
    * Konstruktor tanpa parameter
    * <br> mengisi cc dengan '%'
    */
+
   public AirHabitat(){
     cc = '%';
   }

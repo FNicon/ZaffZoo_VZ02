@@ -22,8 +22,8 @@ class CageTest {
     type[1] = 0;
     type[2] = 0;
     c.SetTipeKandang(0);
-    String exp = "macan \n uauau";
-    c.SetHewan(1,2,type,'m',exp,'l');
+    StringBuffer exp = new StringBuffer("macan \n uauau");
+    c.SetHewan(1,2,type,'m',exp,'l',1,1);
     assertTrue(p1.GetX() == c.GetAniLoc(0).GetX());
     assertTrue(p1.GetY() == c.GetAniLoc(0).GetY());
   }
@@ -37,8 +37,8 @@ class CageTest {
     type[1] = 0;
     type[2] = 0;
     c.SetTipeKandang(0);
-    String exp = "macan \n uauau";
-    c.SetHewan(1,2,type,'m',exp,'l');
+    StringBuffer exp = new StringBuffer("macan \n uauau");
+    c.SetHewan(1,2,type,'m',exp,'l',1,1);
     String cmpr = "macan \n uauau";
     assertTrue(Objects.equals(cmpr,c.GetAniExp(0)));
   }
