@@ -165,6 +165,7 @@ public class Cell {
   }
   public void Tour(){
     boolean exit = false;
+    int i;
     Point cur_pos = masuk.GetPoint();
     cur_pos.SetChar('Q');
     Scanner s;
@@ -211,6 +212,9 @@ public class Cell {
       // check exit
       if ((cur_pos.GetX() == keluar.GetPoint().GetX()) && (cur_pos.GetY() == keluar.GetPoint().GetY())) {
         exit = true;
+      }
+      for(i=0;i<jumlah_kandang;i++){
+        kandang[i].SemuaGerak();
       }
     }
   }
