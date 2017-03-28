@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_zaffzoo_vz02" default="compile.module.zaffzoo_vz02">
+  <dirname property="module.zaffzoo_vz02.basedir" file="${ant.file.module_zaffzoo_vz02}"/>
+  
+  <property name="module.jdk.home.zaffzoo_vz02" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.zaffzoo_vz02" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.zaffzoo_vz02" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.zaffzoo_vz02" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="zaffzoo_vz02.output.dir" value="${module.zaffzoo_vz02.basedir}/out/production/ZaffZoo_VZ02"/>
+  <property name="zaffzoo_vz02.testoutput.dir" value="${module.zaffzoo_vz02.basedir}/out/test/ZaffZoo_VZ02"/>
+  
+  <path id="zaffzoo_vz02.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="zaffzoo_vz02.module.production.classpath">
+    <path refid="${module.jdk.classpath.zaffzoo_vz02}"/>
+    <pathelement location="${idea.home}/lib/groovy-all-2.4.6.jar"/>
+    <pathelement location="${basedir}/lib/hamcrest-core-1.3.jar"/>
+    <pathelement location="${basedir}/lib/junit-4.12.jar"/>
+    <path refid="library.junit5.classpath"/>
+    <pathelement location="${basedir}/../../Downloads/UmlGraph-5.7_2.23-SNAPSHOT.jar"/>
+  </path>
+  
+  <path id="zaffzoo_vz02.runtime.production.module.classpath">
+    <pathelement location="${zaffzoo_vz02.output.dir}"/>
+    <pathelement location="${idea.home}/lib/groovy-all-2.4.6.jar"/>
+    <pathelement location="${basedir}/lib/hamcrest-core-1.3.jar"/>
+    <pathelement location="${basedir}/lib/junit-4.12.jar"/>
+    <path refid="library.junit5.classpath"/>
+    <pathelement location="${basedir}/../../Downloads/UmlGraph-5.7_2.23-SNAPSHOT.jar"/>
+  </path>
+  
+  <path id="zaffzoo_vz02.module.classpath">
+    <path refid="${module.jdk.classpath.zaffzoo_vz02}"/>
+    <pathelement location="${zaffzoo_vz02.output.dir}"/>
+    <path refid="library.junit5.classpath"/>
+    <pathelement location="${idea.home}/lib/groovy-all-2.4.6.jar"/>
+    <pathelement location="${basedir}/lib/junit.jar"/>
+    <pathelement location="${basedir}/lib/hamcrest-core-1.3.jar"/>
+    <pathelement location="${basedir}/lib/junit-4.12.jar"/>
+    <pathelement location="${basedir}/../../Downloads/UmlGraph-5.7_2.23-SNAPSHOT.jar"/>
+  </path>
+  
+  <path id="zaffzoo_vz02.runtime.module.classpath">
+    <pathelement location="${zaffzoo_vz02.testoutput.dir}"/>
+    <pathelement location="${zaffzoo_vz02.output.dir}"/>
+    <path refid="library.junit5.classpath"/>
+    <pathelement location="${idea.home}/lib/groovy-all-2.4.6.jar"/>
+    <pathelement location="${basedir}/lib/junit.jar"/>
+    <pathelement location="${basedir}/lib/hamcrest-core-1.3.jar"/>
+    <pathelement location="${basedir}/lib/junit-4.12.jar"/>
+    <pathelement location="${basedir}/../../Downloads/UmlGraph-5.7_2.23-SNAPSHOT.jar"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.zaffzoo_vz02">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.zaffzoo_vz02">
+    <patternset refid="excluded.from.module.zaffzoo_vz02"/>
+  </patternset>
+  
+  <path id="zaffzoo_vz02.module.sourcepath">
+    <dirset dir="${module.zaffzoo_vz02.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.zaffzoo_vz02" depends="compile.module.zaffzoo_vz02.production,compile.module.zaffzoo_vz02.tests" description="Compile module ZaffZoo_VZ02"/>
+  
+  <target name="compile.module.zaffzoo_vz02.production" depends="register.custom.compilers" description="Compile module ZaffZoo_VZ02; production classes">
+    <mkdir dir="${zaffzoo_vz02.output.dir}"/>
+    <javac2 destdir="${zaffzoo_vz02.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.zaffzoo_vz02}/javac">
+      <compilerarg line="${compiler.args.zaffzoo_vz02}"/>
+      <bootclasspath refid="zaffzoo_vz02.module.bootclasspath"/>
+      <classpath refid="zaffzoo_vz02.module.production.classpath"/>
+      <src refid="zaffzoo_vz02.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.zaffzoo_vz02"/>
+    </javac2>
+    
+    <copy todir="${zaffzoo_vz02.output.dir}">
+      <fileset dir="${module.zaffzoo_vz02.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.zaffzoo_vz02.tests" depends="register.custom.compilers,compile.module.zaffzoo_vz02.production" description="compile module ZaffZoo_VZ02; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.zaffzoo_vz02" description="cleanup module">
+    <delete dir="${zaffzoo_vz02.output.dir}"/>
+    <delete dir="${zaffzoo_vz02.testoutput.dir}"/>
+  </target>
+</project>
