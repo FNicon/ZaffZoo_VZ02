@@ -25,6 +25,7 @@ public class Cage {
    * Konstruktor tanpa parameter
    * <br>Nilai dari jumlah_hewan diset ke 0, menandakan array kosong pertama berada di 0
    * <br>Inisialisasi array ani_loc dan ani_exp
+   * <br>selain itu, mengeset total makanan[] menjadi 0
    */
   public Cage(){
     jumlah_hewan = 0;
@@ -50,34 +51,74 @@ public class Cage {
     return ani_loc[i];
   }
 
+  /**
+   * Getter Animal Experience dari hewan yang berada di kandang tersebut
+   * @param i indeks hewan tersebut dalam kandang
+   * @return Experience hewan berindeks i terebut
+   */
   public StringBuffer GetAniExp(int i){
     return ani_exp[i];
   }
+
+  /**
+   * Mengeset tipe kandang
+   * <br> tipe kandang yang tersedia adalah: 0 untuk darat, 1 untuk udara, dan 2 untuk air
+   * @param i tipe kandang. Dilakukan pengecekan terlebih dahulu
+   */
   public void SetTipeKandang(int i){
     if ((i == 0) || (i == 1) || (i == 2)){
       tipe_kandang = i;
     }
   }
 
+  /**
+   * Getter jumlah hewan dalam suatu kandang
+   * @return banyaknya hewan dalam kandang tersebut
+   */
   public int GetJumlahHewan(){
     return jumlah_hewan;
   }
+
+  /**
+   * Getter tipe kandang
+   * @return tipe kandang dalam kandang tersebut, apakah darat, air, ataupun udara
+   */
   public int GetTipeKandang(){
     return tipe_kandang;
   }
+
+  /**
+   * Getter jumlah habitat
+   * @return jumlah habitat yang telah terisi ke dalam kandang tersebut
+   */
   public int GetJumlahHabitat(){
     return jumlah_habitat;
   }
 
+  /**
+   * Setter habitat.
+   * <br> Memasukkan habitat ke dalam kandang
+   * @param x sumbu x tempat habitat tersebut berada
+   * @param y sumbu y tempat habitat tersebut berada
+   * @param render karakter render dari habitat tersebut
+   * @param tipe_habitat tipe dari habitat tersebut, 0:darat, 1:udara, 2:air
+   */
   public void SetHabitat(int x, int y, char render, int tipe_habitat){
     if (tipe_habitat == tipe_kandang){
       list_habitat[jumlah_habitat] = new Point(x,y,render);
       jumlah_habitat++;
     }
   }
+
+  /**
+   * Getter Habitat
+   * @param idx indeks habitat tersebut berada
+   * @return Point dari habitat berindeks i
+   */
   public Point GetHabitat(int idx){
     return(list_habitat[idx]);
   }
+
   /**
    * Setter hewan ke dalam cage
    * @param i lokasi x hewan tersebut
@@ -114,9 +155,18 @@ public class Cage {
     }
   }
 
+  /**
+   * Getter TotalMakanan
+   * @return Total makanan dari seluruh hewan dalam kandang tersebut
+   */
   public int[] GetTotalMakan(){
     return total_makanan;
   }
+
+  /**
+   * Getter experience
+   * @return StringBuffer berisi experience semua hewan dalam kandang tersebut
+   */
   public StringBuffer GetExperience(){
     StringBuffer str = new StringBuffer();
     int i;
@@ -128,6 +178,9 @@ public class Cage {
     return (str);
   }
 
+  /**
+   * Menggerakkan semua hewan dalam kandang
+   */
   public void SemuaGerak(){
     int i;
     for(i = 0; i < jumlah_hewan; i++){
@@ -135,6 +188,10 @@ public class Cage {
     }
   }
 
+  /**
+   * Menggerakkan hewan berindeks i dalam kandang
+   * @param id indeks hewan yang ingin digerakkan
+   */
   public void HewanGerak(int id){
     Random rn = new Random();
     int rand = rn.nextInt(4);
@@ -161,6 +218,12 @@ public class Cage {
     }
   }
 
+  /**
+   * Mengecek apakah x dan y merupakan tempat yang kosong
+   * @param x sumbu x lokasi yang ingin dicek
+   * @param y sumbu y lokasi yang ingin dicek
+   * @return true jika tempat tersebut kosong
+   */
   public boolean AvailGerak(int x, int y){
     // cari apakah terdapat hewan
     int i = 0;
@@ -187,6 +250,12 @@ public class Cage {
     return (slotava && avail);
   }
 
+  /**
+   * Mengecek apakah habitat berindeks x dan y merupakan anggota dari kandang tersebut
+   * @param x sumbu x lokasi yang ingin dicek
+   * @param y sumbu y lokasi yang ingin dicek
+   * @return true jika lokasi tersebut terdapat dalam list_habitat
+   */
   public boolean IsXYHabitat(int x, int y){
     boolean found = false;
     int i = 0;

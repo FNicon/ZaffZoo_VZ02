@@ -33,7 +33,7 @@ public class Peacock {
     */
   private char EnemyChar;
   /**
-   * @brief Inisialisasi Hewan
+   *
    */
   public Peacock(){
     Type[0] = 0;
@@ -48,7 +48,6 @@ public class Peacock {
     EnemyChar = ' ';
   }
   /**
-   * @brief Komunikasi dengan hewan
    * @return Experience dari hewan
    */
   public StringBuffer getExperience(){
@@ -73,63 +72,54 @@ public class Peacock {
     return str;
   }
   /**
-   * @brief Jumlah makanan
    * @return Jumlah makanan
    */
   public int getFoodNum(){
     return(3*Berat/10);
   }
   /**
-   * @brief Print karakter
    * @return char dari animal
    */
   public char getRender(){
     return(AniChar);
   }
   /**
-   * @brief Getter Musuh hewan
    * @return Char dari Musuh animal
    */
   public char getEnemy(){
     return(EnemyChar);
   }
   /**
-   * @brief Getter berat
    * @return int berat
    */
   public int getBerat(){
     return(Berat);
   }
   /**
-   * @brief Getter jenis makanan
    * @return int jenis makanan
    */
   public short getJenisMakanan(){
     return(JenisMakanan);
   }
   /**
-   * @brief Getter Species
    * @return StringBuffer species
    */
   public StringBuffer getSpecies(){
     return(Species);
   }
   /**
-   * @brief Getter Famili
    * @return StringBuffer Famili
    */
   public StringBuffer getFamili(){
     return(Famili);
   }
   /**
-   * @brief Getter Experience
    * @return StringBuffer Experience
    */
   public StringBuffer getIsiExperience(){
     return(Experience);
   }
   /**
-   * @brief Getter Type
    * @return Array of Int Type
    */
   public int[] getType(){

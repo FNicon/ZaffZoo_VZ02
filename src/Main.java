@@ -1,6 +1,5 @@
 /**
- * Kelas Main ini ....
- * <br>Kelas ini tergabung dalam package PACKAGE_NAME
+ * Kelas Main ini merupakan kelas utama dari ZAFF-ZOO
  * <br>Created by 13515017 / Putu Arya Pradipta on 3/27/2017.
  * <br>File Name : Main.java
  */

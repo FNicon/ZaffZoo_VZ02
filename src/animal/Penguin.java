@@ -33,7 +33,7 @@ public class Penguin {
     */
   private char EnemyChar;
   /** 
-   * @brief Inisialisasi Hewan  
+   *   Inisialisasi Hewan  
    */
   public Penguin(){ 
     Type[0] = 0;
@@ -48,7 +48,7 @@ public class Penguin {
     EnemyChar = 'Y'; 
   }
   /**
-   * @brief Komunikasi dengan hewan
+   *   Komunikasi dengan hewan
    * @return Experience dari hewan
    */
   public StringBuffer getExperience(){
@@ -73,63 +73,63 @@ public class Penguin {
     return str;
   }
   /**
-   * @brief Jumlah makanan
+   *   Jumlah makanan
    * @return Jumlah makanan
    */
   public int getFoodNum(){
     return(2*Berat/10);
   }
   /**
-   * @brief Print karakter
+   *   Print karakter
    * @return char dari animal
    */
   public char getRender(){
     return(AniChar);
   }
   /**
-   * @brief Getter Musuh hewan
+   *   Getter Musuh hewan
    * @return Char dari Musuh animal
    */
   public char getEnemy(){
     return(EnemyChar);
   }
   /**
-   * @brief Getter berat
+   *   Getter berat
    * @return int berat
    */
   public int getBerat(){
     return(Berat);
   }
   /**
-   * @brief Getter jenis makanan
+   *   Getter jenis makanan
    * @return int jenis makanan
    */
   public short getJenisMakanan(){
     return(JenisMakanan);
   }
   /**
-   * @brief Getter Species
+   *   Getter Species
    * @return StringBuffer species
    */
   public StringBuffer getSpecies(){
     return(Species);
   }
   /**
-   * @brief Getter Famili
+   *   Getter Famili
    * @return StringBuffer Famili
    */
   public StringBuffer getFamili(){
     return(Famili);
   }
   /**
-   * @brief Getter Experience
+   *   Getter Experience
    * @return StringBuffer Experience
    */
   public StringBuffer getIsiExperience(){
     return(Experience);
   }
   /**
-   * @brief Getter Type
+   *   Getter Type
    * @return Array of Int Type
    */
   public int[] getType(){

@@ -13,35 +13,9 @@ import static org.junit.jupiter.api.Assertions.*;
  * <br>File Name : CageTest.java
  */
 class CageTest {
-  @Test
-  void getAniLoc() {
-    Cage c = new Cage();
-    Point p1 = new Point(1,2,'l');
-    int type[] = new int[3];
-    type[0] = 1;
-    type[1] = 0;
-    type[2] = 0;
-    c.SetTipeKandang(0);
-    StringBuffer exp = new StringBuffer("macan \n uauau");
-    c.SetHewan(1,2,type,'m',exp,'l',1,1);
-    assertTrue(p1.GetX() == c.GetAniLoc(0).GetX());
-    assertTrue(p1.GetY() == c.GetAniLoc(0).GetY());
-  }
 
-  @Test
-  void getAniExp() {
-    Cage c = new Cage();
-    Point p1 = new Point(1,2,'l');
-    int type[] = new int[3];
-    type[0] = 1;
-    type[1] = 0;
-    type[2] = 0;
-    c.SetTipeKandang(0);
-    StringBuffer exp = new StringBuffer("macan \n uauau");
-    c.SetHewan(1,2,type,'m',exp,'l',1,1);
-    String cmpr = "macan \n uauau";
-    assertTrue(Objects.equals(cmpr,c.GetAniExp(0)));
-  }
+
+
 
   @Test
   void setTipeKandang() {

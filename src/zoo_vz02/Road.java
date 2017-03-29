@@ -19,14 +19,25 @@ public class Road {
     cc = '-';
   }
 
+  /**
+   * Konstruktor dengan parameter
+   * <br> mengisi point dengan (x,y)
+   * @param x sumbu x lokasi point p
+   * @param y sumbu y lokasi point p
+   */
   public Road(int x, int y){
     cc = '-';
     p = new Point(x,y,cc);
   }
 
+  /**
+   * Getter posisi jalan
+   * @return posisi jalan
+   */
   public Point GetPoint(){
     return p;
   }
+
   /**
    * Getter karakter render
    * @return karakter yang akan dirender ke layar

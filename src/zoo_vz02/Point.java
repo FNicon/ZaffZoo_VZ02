@@ -2,6 +2,7 @@ package zoo_vz02;
 
 /**
  * Kelas Cell ini menyimpan informasi x, y, dan isi karakter dari titik tersebut
+ * <br>Kelas ini tergabung dalam package zoo_vz02
  * <br>Created by 13515017 / Putu Arya Pradipta on 3/26/2017.
  * <br>File Name : Cell.java
  */

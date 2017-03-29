@@ -4,7 +4,7 @@ package zoo_vz02;
 
 
 /**
- * Kelas Exit ini ....
+ * Kelas Exit ini menyimpan data terkait pintu keluar dari suatu zoo
  * <br>Kelas ini tergabung dalam package zoo_vz02
  * <br>Created by 13515017 / Putu Arya Pradipta on 3/26/2017.
  * <br>File Name : Exit.java
@@ -15,17 +15,28 @@ public class Exit {
 
   /**
    * Konstruktor tanpa parameter
-   * mengisi cc dengan '-'
+   * mengisi cc dengan '-' dan p dengan (0,0)
    */
   public Exit(){
     p = new Point();
     cc = '-';
   }
 
+  /**
+   * Konstruktor dengan parameter
+   * <br> mengisi point dengan (x,y)
+   * @param x sumbu x lokasi point p
+   * @param y sumbu y lokasi point p
+   */
   public Exit(int x, int y){
     cc = '-';
     p = new Point (x,y,cc);
   }
+
+  /**
+   * Getter lokasi exit
+   * @return lokasi exit
+   */
   public Point GetPoint(){
     return p;
   }
