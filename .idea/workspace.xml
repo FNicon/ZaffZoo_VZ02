@@ -5,7 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ce23b44-cf46-4577-a945-9117c4a22c77" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/AfricanElephantTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/AnoaTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/BearTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/EagleTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/FoxTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/GirrafeTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/GorillaTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/IndianPythonTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/LionTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/PandaTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/PeacockTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/ReindeerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/RhinoTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/SalamanderTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/SeadragonTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/SquirrelMonkeyTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/StingrayTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/TigerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/WhaleTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/WhiteSharkTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/ZebraTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -45,8 +65,8 @@
       <file leaf-file-name="Cage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/zoo_vz02/Cage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+            <state relative-caret-position="153">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -687,7 +707,14 @@
       <option name="project" value="LOCAL" />
       <updated>1490796529933</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="ntapsparah">
+      <created>1490840008979</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1490840008979</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -733,7 +760,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.67751706" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -747,11 +773,11 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8281506" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23895253" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23895253" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21953066" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21953066" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -783,7 +809,8 @@
     <MESSAGE value="done2" />
     <MESSAGE value="doneparah" />
     <MESSAGE value="ntaps" />
-    <option name="LAST_COMMIT_MESSAGE" value="ntaps" />
+    <MESSAGE value="ntapsparah" />
+    <option name="LAST_COMMIT_MESSAGE" value="ntapsparah" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1106,6 +1133,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1151,8 +1179,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/zoo_vz02/Cage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        <state relative-caret-position="153">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
