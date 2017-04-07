@@ -8,12 +8,12 @@ package animal;
  *
  */
 public class Anoa {
-  /**  Type habitat hewan. 0 : darat, 1 : udara, 2 : air
+  /**  type habitat hewan. 0 : darat, 1 : udara, 2 : air
     */
-  private int[] Type = new int[3];
+  private int[] type = new int[3];
   /**  Family hewan
     */
-  private StringBuffer Famili;
+  private StringBuffer famili;
   /**  Species hewan
     */
   private StringBuffer Species;
@@ -35,11 +35,11 @@ public class Anoa {
   /** 
    * 
    */
-  public Anoa(){ 
-    Type[0] = 1;
-    Type[1] = 0;
-    Type[2] = 0;
-    Famili = new StringBuffer("Bovidae");
+  public Anoa() {
+    type[0] = 1;
+    type[1] = 0;
+    type[2] = 0;
+    famili = new StringBuffer("Bovidae");
     Species = new StringBuffer("Anoa");
     Experience = new StringBuffer("The anoa is eating grass");
     JenisMakanan = 2;
@@ -50,20 +50,20 @@ public class Anoa {
   /**
    * @return Experience dari hewan
    */
-  public StringBuffer getExperience(){
+  public StringBuffer getExperience() {
     StringBuffer str = new StringBuffer("Hewan ini tinggal di : ");
-    if (Type[0]==1){
+    if (type[0] == 1) {
       str.append("darat ");
     }
-    if (Type[1]==1){
+    if (type[1] == 1) {
       str.append("udara ");
     }
-    if (Type[2]==1){
+    if (type[2] == 1) {
       str.append("air ");
     }
     str.append("\n");
     str.append("Hewan ini tergabung di famili ");
-    str.append(Famili);
+    str.append(famili);
     str.append(" dan dengan nama spesies ");
     str.append(Species);
     str.append("\n");
@@ -74,55 +74,55 @@ public class Anoa {
   /**
    * @return Jumlah makanan
    */
-  public int getFoodNum(){
-    return(2*Berat/10);
+  public int getFoodNum() {
+    return (2*Berat/10);
   }
   /**
    * @return char dari animal
    */
-  public char getRender(){
-    return(AniChar);
+  public char getRender() {
+    return (AniChar);
   }
   /**
    * @return Char dari Musuh animal
    */
-  public char getEnemy(){
-    return(EnemyChar);
+  public char getEnemy() {
+    return (EnemyChar);
   }
   /**
    * @return int berat
    */
-  public int getBerat(){
-    return(Berat);
+  public int getBerat() {
+    return (Berat);
   }
   /**
    * @return int jenis makanan
    */
-  public short getJenisMakanan(){
-    return(JenisMakanan);
+  public short getJenisMakanan() {
+    return (JenisMakanan);
   }
   /**
    * @return StringBuffer species
    */
-  public StringBuffer getSpecies(){
-    return(Species);
+  public StringBuffer getSpecies() {
+    return (Species);
   }
   /**
-   * @return StringBuffer Famili
+   * @return StringBuffer famili
    */
-  public StringBuffer getFamili(){
-    return(Famili);
+  public StringBuffer getFamili() {
+    return (famili);
   }
   /**
    * @return StringBuffer Experience
    */
-  public StringBuffer getIsiExperience(){
-    return(Experience);
+  public StringBuffer getIsiExperience() {
+    return (Experience);
   }
   /**
-   * @return Array of Int Type
+   * @return Array of Int type
    */
-  public int[] getType(){
-    return(Type);
+  public int[] getType() {
+    return (type);
   }
 }

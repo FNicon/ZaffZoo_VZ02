@@ -1,51 +1,48 @@
-package zoo_vz02;
+package zoo;
 
-
-
-
-/**
- * Kelas Exit ini menyimpan data terkait pintu keluar dari suatu zoo
- * <br>Kelas ini tergabung dalam package zoo_vz02
+/**.
+ * Kelas Road ini merupakan tempat jalan dari user tersebut
+ * <br>Kelas ini tergabung dalam package zoo
  * <br>Created by 13515017 / Putu Arya Pradipta on 3/26/2017.
- * <br>File Name : Exit.java
+ * <br>File Name : Road.java
  */
-public class Exit {
+public class Road {
   private Point p;
   private char cc;
 
-  /**
+  /**.
    * Konstruktor tanpa parameter
-   * mengisi cc dengan '-' dan p dengan (0,0)
+   * mengisi cc dengan '-' dan membuat point kosong
    */
-  public Exit(){
+  public Road() {
     p = new Point();
     cc = '-';
   }
 
-  /**
+  /**.
    * Konstruktor dengan parameter
    * <br> mengisi point dengan (x,y)
    * @param x sumbu x lokasi point p
    * @param y sumbu y lokasi point p
    */
-  public Exit(int x, int y){
+  public Road(int x, int y) {
     cc = '-';
-    p = new Point (x,y,cc);
+    p = new Point(x,y,cc);
   }
 
-  /**
-   * Getter lokasi exit
-   * @return lokasi exit
+  /**.
+   * Getter posisi jalan
+   * @return posisi jalan
    */
-  public Point GetPoint(){
+  public Point GetPoint() {
     return p;
   }
 
-  /**
+  /**.
    * Getter karakter render
    * @return karakter yang akan dirender ke layar
    */
-  public char GetRender(){
+  public char getRender() {
     return cc;
   }
 }

@@ -5,28 +5,74 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ce23b44-cf46-4577-a945-9117c4a22c77" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/AfricanElephantTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/AnoaTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/BearTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/EagleTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/FoxTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/GirrafeTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/GorillaTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/IndianPythonTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/LionTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/PandaTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/PeacockTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/ReindeerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/RhinoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/SalamanderTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/SeadragonTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/SquirrelMonkeyTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/StingrayTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/TigerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/WhaleTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/WhiteSharkTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/animal/ZebraTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/zoo.puml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/zoo_vz02/AirHabitat.java" afterPath="$PROJECT_DIR$/src/zoo/AirHabitat.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/zoo_vz02/AirHabitatTest.java" afterPath="$PROJECT_DIR$/src/zoo/AirHabitatTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/zoo_vz02/Cage.java" afterPath="$PROJECT_DIR$/src/zoo/Cage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/zoo_vz02/CageTest.java" afterPath="$PROJECT_DIR$/src/zoo/CageTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/zoo_vz02/Cell.java" afterPath="$PROJECT_DIR$/src/zoo/Cell.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/zoo_vz02/CellTest.java" afterPath="$PROJECT_DIR$/src/zoo/CellTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/zoo_vz02/Entrance.java" afterPath="$PROJECT_DIR$/src/zoo/Entrance.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/zoo_vz02/EntranceTest.java" afterPath="$PROJECT_DIR$/src/zoo/EntranceTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/zoo_vz02/Exit.java" afterPath="$PROJECT_DIR$/src/zoo/Exit.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/zoo_vz02/ExitTest.java" afterPath="$PROJECT_DIR$/src/zoo/ExitTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/zoo_vz02/LandHabitat.java" afterPath="$PROJECT_DIR$/src/zoo/LandHabitat.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/zoo_vz02/LandHabitatTest.java" afterPath="$PROJECT_DIR$/src/zoo/LandHabitatTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/zoo_vz02/Park.java" afterPath="$PROJECT_DIR$/src/zoo/Park.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/zoo_vz02/ParkTest.java" afterPath="$PROJECT_DIR$/src/zoo/ParkTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/zoo_vz02/Point.java" afterPath="$PROJECT_DIR$/src/zoo/Point.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/zoo_vz02/PointTest.java" afterPath="$PROJECT_DIR$/src/zoo/PointTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/zoo_vz02/Restaurant.java" afterPath="$PROJECT_DIR$/src/zoo/Restaurant.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/zoo_vz02/RestaurantTest.java" afterPath="$PROJECT_DIR$/src/zoo/RestaurantTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/zoo_vz02/Road.java" afterPath="$PROJECT_DIR$/src/zoo/Road.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/zoo_vz02/RoadTest.java" afterPath="$PROJECT_DIR$/src/zoo/RoadTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/zoo_vz02/WaterHabitat.java" afterPath="$PROJECT_DIR$/src/zoo/WaterHabitat.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/zoo_vz02/WaterHabitatTest.java" afterPath="$PROJECT_DIR$/src/zoo/WaterHabitatTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/AfricanElephant.java" afterPath="$PROJECT_DIR$/src/animal/AfricanElephant.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/AfricanElephantTest.java" afterPath="$PROJECT_DIR$/src/animal/AfricanElephantTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/Anoa.java" afterPath="$PROJECT_DIR$/src/animal/Anoa.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/AnoaTest.java" afterPath="$PROJECT_DIR$/src/animal/AnoaTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/Bear.java" afterPath="$PROJECT_DIR$/src/animal/Bear.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/BearTest.java" afterPath="$PROJECT_DIR$/src/animal/BearTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/Eagle.java" afterPath="$PROJECT_DIR$/src/animal/Eagle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/EagleTest.java" afterPath="$PROJECT_DIR$/src/animal/EagleTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/Fox.java" afterPath="$PROJECT_DIR$/src/animal/Fox.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/FoxTest.java" afterPath="$PROJECT_DIR$/src/animal/FoxTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/Girrafe.java" afterPath="$PROJECT_DIR$/src/animal/Girrafe.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/GirrafeTest.java" afterPath="$PROJECT_DIR$/src/animal/GirrafeTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/Gorilla.java" afterPath="$PROJECT_DIR$/src/animal/Gorilla.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/GorillaTest.java" afterPath="$PROJECT_DIR$/src/animal/GorillaTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/IndianPython.java" afterPath="$PROJECT_DIR$/src/animal/IndianPython.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/IndianPythonTest.java" afterPath="$PROJECT_DIR$/src/animal/IndianPythonTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/Lion.java" afterPath="$PROJECT_DIR$/src/animal/Lion.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/LionTest.java" afterPath="$PROJECT_DIR$/src/animal/LionTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/Panda.java" afterPath="$PROJECT_DIR$/src/animal/Panda.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/PandaTest.java" afterPath="$PROJECT_DIR$/src/animal/PandaTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/Peacock.java" afterPath="$PROJECT_DIR$/src/animal/Peacock.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/PeacockTest.java" afterPath="$PROJECT_DIR$/src/animal/PeacockTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/Penguin.java" afterPath="$PROJECT_DIR$/src/animal/Penguin.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/Reindeer.java" afterPath="$PROJECT_DIR$/src/animal/Reindeer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/ReindeerTest.java" afterPath="$PROJECT_DIR$/src/animal/ReindeerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/Rhino.java" afterPath="$PROJECT_DIR$/src/animal/Rhino.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/RhinoTest.java" afterPath="$PROJECT_DIR$/src/animal/RhinoTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/Salamander.java" afterPath="$PROJECT_DIR$/src/animal/Salamander.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/SalamanderTest.java" afterPath="$PROJECT_DIR$/src/animal/SalamanderTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/Seadragon.java" afterPath="$PROJECT_DIR$/src/animal/Seadragon.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/SeadragonTest.java" afterPath="$PROJECT_DIR$/src/animal/SeadragonTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/SquirrelMonkey.java" afterPath="$PROJECT_DIR$/src/animal/SquirrelMonkey.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/SquirrelMonkeyTest.java" afterPath="$PROJECT_DIR$/src/animal/SquirrelMonkeyTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/Stingray.java" afterPath="$PROJECT_DIR$/src/animal/Stingray.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/StingrayTest.java" afterPath="$PROJECT_DIR$/src/animal/StingrayTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/Tiger.java" afterPath="$PROJECT_DIR$/src/animal/Tiger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/TigerTest.java" afterPath="$PROJECT_DIR$/src/animal/TigerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/Whale.java" afterPath="$PROJECT_DIR$/src/animal/Whale.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/WhaleTest.java" afterPath="$PROJECT_DIR$/src/animal/WhaleTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/WhiteShark.java" afterPath="$PROJECT_DIR$/src/animal/WhiteShark.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/WhiteSharkTest.java" afterPath="$PROJECT_DIR$/src/animal/WhiteSharkTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/Zebra.java" afterPath="$PROJECT_DIR$/src/animal/Zebra.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/animal/ZebraTest.java" afterPath="$PROJECT_DIR$/src/animal/ZebraTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,11 +89,16 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="AirHabitat.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zoo_vz02/AirHabitat.java">
+        <entry file="file://$PROJECT_DIR$/src/zoo/AirHabitat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="272">
+              <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+              <folding>
+                <element signature="e#388#389#0" expanded="false" />
+                <element signature="e#406#407#0" expanded="false" />
+                <element signature="e#526#527#0" expanded="false" />
+                <element signature="e#545#546#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,29 +106,311 @@
       <file leaf-file-name="AfricanElephant.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/animal/AfricanElephant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-              <folding />
+            <state relative-caret-position="1326">
+              <caret line="82" column="5" lean-forward="false" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+              <folding>
+                <element signature="e#1651#1652#0" expanded="false" />
+                <element signature="e#1680#1681#0" expanded="false" />
+                <element signature="e#1750#1751#0" expanded="false" />
+                <element signature="e#1776#1777#0" expanded="false" />
+                <element signature="e#1851#1852#0" expanded="false" />
+                <element signature="e#1879#1880#0" expanded="false" />
+                <element signature="e#1940#1941#0" expanded="false" />
+                <element signature="e#1964#1965#0" expanded="false" />
+                <element signature="e#2042#2043#0" expanded="false" />
+                <element signature="e#2073#2074#0" expanded="false" />
+                <element signature="e#2156#2157#0" expanded="false" />
+                <element signature="e#2182#2183#0" expanded="false" />
+                <element signature="e#2263#2264#0" expanded="false" />
+                <element signature="e#2288#2289#0" expanded="false" />
+                <element signature="e#2380#2381#0" expanded="false" />
+                <element signature="e#2409#2410#0" expanded="false" />
+                <element signature="e#2479#2480#0" expanded="false" />
+                <element signature="e#2502#2503#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cage.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/zoo_vz02/Cage.java">
+      <file leaf-file-name="Cage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/zoo/Cage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="374">
+              <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+              <folding>
+                <element signature="e#1369#1370#0" expanded="false" />
+                <element signature="e#1395#1396#0" expanded="false" />
+                <element signature="e#1623#1624#0" expanded="false" />
+                <element signature="e#1650#1651#0" expanded="false" />
+                <element signature="e#2111#2112#0" expanded="false" />
+                <element signature="e#2140#2141#0" expanded="false" />
+                <element signature="e#2294#2295#0" expanded="false" />
+                <element signature="e#2322#2323#0" expanded="false" />
+                <element signature="e#2469#2470#0" expanded="false" />
+                <element signature="e#2499#2500#0" expanded="false" />
+                <element signature="e#3186#3187#0" expanded="false" />
+                <element signature="e#3221#3222#0" expanded="false" />
+                <element signature="e#4676#4677#0" expanded="false" />
+                <element signature="e#4705#4706#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Cell.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zoo_vz02/Cell.java">
+        <entry file="file://$PROJECT_DIR$/src/zoo/Cell.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1547">
-              <caret line="91" column="15" lean-forward="false" selection-start-line="91" selection-start-column="15" selection-end-line="91" selection-end-column="15" />
-              <folding />
+            <state relative-caret-position="3247">
+              <caret line="193" column="8" lean-forward="false" selection-start-line="193" selection-start-column="8" selection-end-line="193" selection-end-column="8" />
+              <folding>
+                <element signature="e#3053#3054#0" expanded="false" />
+                <element signature="e#3082#3083#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MODULES/mdl-ZaffZoo_VZ02" pinned="false" current-in-tab="false">
+        <entry file="uml://MODULES/mdl-ZaffZoo_VZ02">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>MODULES</ID>
+              <OriginalElement>mdl-ZaffZoo_VZ02</OriginalElement>
+              <nodes>
+                <node x="400.0" y="79.0">lib-groovy-all-2.4.6.jar</node>
+                <node x="137.0" y="79.0">lib-UmlGraph-5.7_2.23-SNAPSHOT</node>
+                <node x="0.0" y="79.0">lib-junit.jar</node>
+                <node x="410.5" y="0.0">mdl-ZaffZoo_VZ02</node>
+                <node x="725.0" y="79.0">lib-JUnit4</node>
+                <node x="596.0" y="79.0">lib-JUnit5</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="mdl-ZaffZoo_VZ02" target="lib-JUnit5">
+                  <point x="31.0" y="14.5" />
+                  <point x="519.0" y="59.0" />
+                  <point x="650.5" y="59.0" />
+                  <point x="0.0" y="-14.5" />
+                </edge>
+                <edge source="mdl-ZaffZoo_VZ02" target="lib-junit.jar">
+                  <point x="-62.0" y="14.5" />
+                  <point x="426.0" y="49.0" />
+                  <point x="58.5" y="49.0" />
+                  <point x="0.0" y="-14.5" />
+                </edge>
+                <edge source="mdl-ZaffZoo_VZ02" target="lib-JUnit4">
+                  <point x="62.0" y="14.5" />
+                  <point x="550.0" y="49.0" />
+                  <point x="779.5" y="49.0" />
+                  <point x="0.0" y="-14.5" />
+                </edge>
+                <edge source="mdl-ZaffZoo_VZ02" target="lib-groovy-all-2.4.6.jar">
+                  <point x="0.0" y="14.5" />
+                  <point x="0.0" y="-14.5" />
+                </edge>
+                <edge source="mdl-ZaffZoo_VZ02" target="lib-UmlGraph-5.7_2.23-SNAPSHOT">
+                  <point x="-31.0" y="14.5" />
+                  <point x="457.0" y="59.0" />
+                  <point x="258.5" y="59.0" />
+                  <point x="0.0" y="-14.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.2000000000000002" x="-44.0" y="-28.0" />
+              <SelectedNodes>
+                <node>mdl-ZaffZoo_VZ02</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Test dependencies</Category>
+                <Category>Libraries</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/animal" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/animal">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>animal</OriginalElement>
+              <nodes>
+                <node x="397.0" y="0.0">animal.IndianPythonTest</node>
+                <node x="145.0" y="370.0">animal.AnoaTest</node>
+                <node x="276.0" y="444.0">animal.Peacock</node>
+                <node x="496.0" y="148.0">animal.PeacockTest</node>
+                <node x="247.0" y="592.0">animal.Anoa</node>
+                <node x="0.0" y="444.0">animal.LionTest</node>
+                <node x="0.0" y="296.0">animal.GorillaTest</node>
+                <node x="335.0" y="148.0">animal.ReindeerTest</node>
+                <node x="594.0" y="296.0">animal.RhinoTest</node>
+                <node x="298.0" y="296.0">animal.WhaleTest</node>
+                <node x="466.0" y="222.0">animal.GirrafeTest</node>
+                <node x="0.0" y="222.0">animal.StingrayTest</node>
+                <node x="609.0" y="592.0">animal.Bear</node>
+                <node x="116.0" y="666.0">animal.Fox</node>
+                <node x="133.0" y="518.0">animal.Girrafe</node>
+                <node x="388.0" y="518.0">animal.Whale</node>
+                <node x="0.0" y="148.0">animal.SeadragonTest</node>
+                <node x="514.0" y="518.0">animal.Panda</node>
+                <node x="288.0" y="370.0">animal.EagleTest</node>
+                <node x="124.0" y="592.0">animal.Zebra</node>
+                <node x="0.0" y="74.0">animal.SalamanderTest</node>
+                <node x="431.0" y="370.0">animal.TigerTest</node>
+                <node x="413.0" y="444.0">animal.Penguin</node>
+                <node x="530.0" y="74.0">animal.WhiteSharkTest</node>
+                <node x="0.0" y="592.0">animal.Rhino</node>
+                <node x="177.0" y="74.0">animal.AfricanElephant</node>
+                <node x="158.0" y="222.0">animal.Salamander</node>
+                <node x="261.0" y="518.0">animal.Gorilla</node>
+                <node x="0.0" y="0.0">animal.AfricanElephantTest</node>
+                <node x="446.0" y="296.0">animal.PandaTest</node>
+                <node x="138.0" y="444.0">animal.BearTest</node>
+                <node x="368.0" y="592.0">animal.Eagle</node>
+                <node x="0.0" y="666.0">animal.Lion</node>
+                <node x="199.0" y="0.0">animal.SquirrelMonkeyTest</node>
+                <node x="0.0" y="518.0">animal.FoxTest</node>
+                <node x="171.0" y="148.0">animal.IndianPython</node>
+                <node x="354.0" y="74.0">animal.SquirrelMonkey</node>
+                <node x="149.0" y="296.0">animal.Seadragon</node>
+                <node x="489.0" y="592.0">animal.Tiger</node>
+                <node x="573.0" y="370.0">animal.Reindeer</node>
+                <node x="550.0" y="444.0">animal.Stingray</node>
+                <node x="313.0" y="222.0">animal.WhiteShark</node>
+                <node x="0.0" y="370.0">animal.ZebraTest</node>
+              </nodes>
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="0.813986013986014" x="-11.0" y="225.0" />
+              <SelectedNodes>
+                <node>animal.IndianPythonTest</node>
+              </SelectedNodes>
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>public</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement />
+              <nodes>
+                <node x="598.0" y="370.0">com</node>
+                <node x="198.0" y="74.0">animal.IndianPythonTest</node>
+                <node x="143.0" y="518.0">animal.AnoaTest</node>
+                <node x="653.0" y="222.0">animal.PeacockTest</node>
+                <node x="139.0" y="592.0">animal.LionTest</node>
+                <node x="492.0" y="222.0">animal.ReindeerTest</node>
+                <node x="296.0" y="444.0">animal.RhinoTest</node>
+                <node x="0.0" y="444.0">animal.WhaleTest</node>
+                <node x="150.0" y="370.0">animal.GirrafeTest</node>
+                <node x="0.0" y="814.0">animal.Fox</node>
+                <node x="464.0" y="0.0">groovyjarjarasm</node>
+                <node x="442.0" y="444.0">java</node>
+                <node x="0.0" y="370.0">javax</node>
+                <node x="699.0" y="148.0">animal.SeadragonTest</node>
+                <node x="518.0" y="666.0">animal.Panda</node>
+                <node x="286.0" y="518.0">animal.EagleTest</node>
+                <node x="0.0" y="740.0">animal.Zebra</node>
+                <node x="469.0" y="296.0">javafx</node>
+                <node x="353.0" y="148.0">animal.WhiteSharkTest</node>
+                <node x="770.0" y="666.0">animal.Rhino</node>
+                <node x="158.0" y="296.0">oracle</node>
+                <node x="563.0" y="74.0">animal.AfricanElephant</node>
+                <node x="133.0" y="666.0">junit3.8.1</node>
+                <node x="391.0" y="666.0">animal.Gorilla</node>
+                <node x="277.0" y="592.0">animal.BearTest</node>
+                <node x="384.0" y="74.0">META-INF</node>
+                <node x="123.0" y="740.0">animal.Eagle</node>
+                <node x="605.0" y="740.0">animal.Lion</node>
+                <node x="0.0" y="74.0">animal.SquirrelMonkeyTest</node>
+                <node x="331.0" y="222.0">groovy</node>
+                <node x="0.0" y="666.0">animal.FoxTest</node>
+                <node x="167.0" y="222.0">animal.IndianPython</node>
+                <node x="177.0" y="148.0">animal.SquirrelMonkey</node>
+                <node x="485.0" y="740.0">animal.Tiger</node>
+                <node x="300.0" y="370.0">animal.Seadragon</node>
+                <node x="0.0" y="0.0">groovyjarjarcommonscli</node>
+                <node x="253.0" y="0.0">groovyjarjarantlr</node>
+                <node x="623.0" y="296.0">animal.WhiteShark</node>
+                <node x="528.0" y="148.0">netscape</node>
+                <node x="415.0" y="592.0">animal.Peacock</node>
+                <node x="244.0" y="740.0">animal.Anoa</node>
+                <node x="449.0" y="370.0">animal.GorillaTest</node>
+                <node x="732.0" y="444.0">sun</node>
+                <node x="0.0" y="296.0">animal.StingrayTest</node>
+                <node x="721.0" y="740.0">animal.Bear</node>
+                <node x="263.0" y="666.0">animal.Girrafe</node>
+                <node x="644.0" y="666.0">animal.Whale</node>
+                <node x="0.0" y="148.0">animal.SalamanderTest</node>
+                <node x="0.0" y="518.0">zoo</node>
+                <node x="571.0" y="518.0">animal.TigerTest</node>
+                <node x="552.0" y="592.0">animal.Penguin</node>
+                <node x="746.0" y="370.0">junit</node>
+                <node x="429.0" y="518.0">org</node>
+                <node x="314.0" y="296.0">animal.Salamander</node>
+                <node x="673.0" y="0.0">animal.AfricanElephantTest</node>
+                <node x="0.0" y="222.0">jdepend</node>
+                <node x="148.0" y="444.0">animal.PandaTest</node>
+                <node x="713.0" y="518.0">jdk</node>
+                <node x="0.0" y="592.0">animal.Reindeer</node>
+                <node x="689.0" y="592.0">animal.Stingray</node>
+                <node x="587.0" y="444.0">animal.ZebraTest</node>
+                <node x="365.0" y="740.0">Main</node>
+              </nodes>
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="1.0" x="-48.0" y="266.0" />
+              <SelectedNodes>
+                <node>com</node>
+              </SelectedNodes>
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>public</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/zoo" pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/zoo">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>zoo</OriginalElement>
+              <nodes>
+                <node x="161.0" y="148.0">zoo.LandHabitat</node>
+                <node x="236.0" y="444.0">zoo.Cell</node>
+                <node x="0.0" y="74.0">zoo.RestaurantTest</node>
+                <node x="349.0" y="444.0">zoo.Exit</node>
+                <node x="120.0" y="444.0">zoo.Park</node>
+                <node x="389.0" y="370.0">zoo.Cage</node>
+                <node x="0.0" y="444.0">zoo.Road</node>
+                <node x="147.0" y="222.0">zoo.PointTest</node>
+                <node x="340.0" y="74.0">zoo.WaterHabitat</node>
+                <node x="0.0" y="222.0">zoo.AirHabitat</node>
+                <node x="135.0" y="370.0">zoo.ExitTest</node>
+                <node x="142.0" y="296.0">zoo.Entrance</node>
+                <node x="268.0" y="370.0">zoo.Point</node>
+                <node x="281.0" y="296.0">zoo.ParkTest</node>
+                <node x="0.0" y="148.0">zoo.EntranceTest</node>
+                <node x="0.0" y="0.0">zoo.WaterHabitatTest</node>
+                <node x="0.0" y="370.0">zoo.CellTest</node>
+                <node x="290.0" y="222.0">zoo.CageTest</node>
+                <node x="171.0" y="74.0">zoo.AirHabitatTest</node>
+                <node x="185.0" y="0.0">zoo.LandHabitatTest</node>
+                <node x="319.0" y="148.0">zoo.Restaurant</node>
+                <node x="0.0" y="296.0">zoo.RoadTest</node>
+              </nodes>
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="1.0" x="524.0" y="88.0" />
+              <SelectedNodes />
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>public</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -85,9 +418,40 @@
       <file leaf-file-name="AfricanElephantTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/animal/AfricanElephantTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="170">
+              <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#269#270#0" expanded="false" />
+                <element signature="e#310#311#0" expanded="false" />
+                <element signature="e#349#350#0" expanded="false" />
+                <element signature="e#387#388#0" expanded="false" />
+                <element signature="e#425#426#0" expanded="false" />
+                <element signature="e#462#463#0" expanded="false" />
+                <element signature="e#500#501#0" expanded="false" />
+                <element signature="e#539#540#0" expanded="false" />
+                <element signature="e#584#585#0" expanded="false" />
+                <element signature="e#626#627#0" expanded="false" />
+                <element signature="e#666#667#0" expanded="false" />
+                <element signature="e#713#714#0" expanded="false" />
+                <element signature="e#752#753#0" expanded="false" />
+                <element signature="e#801#802#0" expanded="false" />
+                <element signature="e#847#848#0" expanded="false" />
+                <element signature="e#927#928#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3383">
+              <caret line="206" column="40" lean-forward="false" selection-start-line="206" selection-start-column="40" selection-end-line="206" selection-end-column="40" />
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,27 +472,74 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>CC</find>
-      <find>avail_gerak</find>
-      <find>semua_gerak</find>
-      <find>public</find>
-      <find>Stri</find>
-      <find>String</find>
-      <find>concat</find>
-      <find>private</find>
-      <find>@brief</find>
-      <find>import static org.junit.Assert.*;import org.junit.Test;</find>
+      <find>Print</find>
+      <find>PrintF</find>
+      <find>PrintFo</find>
+      <find>PrintFoo</find>
+      <find>PrintFood</find>
+      <find>PrintFoodR</find>
+      <find>PrintFoodRe</find>
+      <find>PrintFoodReq</find>
+      <find>T</find>
+      <find>Tou</find>
+      <find>Tour</find>
+      <find>c</find>
+      <find>cur_</find>
+      <find>cur_po</find>
+      <find>cur_pos</find>
+      <find>C</find>
+      <find>Che</find>
+      <find>Chec</find>
+      <find>Check</find>
+      <find>CheckA</find>
+      <find>CheckAv</find>
+      <find>CheckAva</find>
+      <find>CheckAvai</find>
+      <find>CheckAvail</find>
+      <find>F</find>
+      <find>Find</find>
+      <find>FindC</find>
+      <find>FindCa</find>
+      <find>FindCag</find>
+      <find>FindCage</find>
     </findStrings>
     <replaceStrings>
-      <replace>cc</replace>
-      <replace>AvailGerak</replace>
-      <replace>HewanGerak</replace>
-      <replace>+</replace>
-      <replace>StringBuffer</replace>
-      <replace>append</replace>
-      <replace>-</replace>
-      <replace />
+      <replace>getRender</replace>
+      <replace>/**.</replace>
+      <replace>return (</replace>
+      <replace>) {</replace>
+      <replace>==</replace>
+      <replace>maxHewan</replace>
+      <replace>maxHabitat</replace>
+      <replace>totalMakanan</replace>
+      <replace>tipeKandang</replace>
+      <replace>jumlahHabitat</replace>
+      <replace>listHabitat</replace>
+      <replace>jumlahKandang</replace>
+      <replace>maxKandang</replace>
+      <replace>jumlahRoad</replace>
+      <replace>p</replace>
+      <replace>maxRoad</replace>
+      <replace>sizeX</replace>
+      <replace>sizeY</replace>
+      <replace>setPoint</replace>
+      <replace>setCage</replace>
+      <replace>setRoad</replace>
+      <replace>displayMap</replace>
+      <replace>printMatriks</replace>
+      <replace>printMap</replace>
+      <replace>getFoodReq</replace>
+      <replace>printFoodReq</replace>
+      <replace>tour</replace>
+      <replace>curPos</replace>
+      <replace>checkAvail</replace>
+      <replace>findCage</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\lenovo\IdeaProjects\ZaffZoo_VZ02\src\animal</dir>
+      <dir>C:\Users\lenovo\IdeaProjects\ZaffZoo_VZ02\src\zoo</dir>
+      <dir>C:\Users\lenovo\IdeaProjects\ZaffZoo_VZ02\src</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -145,9 +556,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/zoo_vz02/point.java" />
-        <option value="$PROJECT_DIR$/src/zoo_vz02/PointTest.java" />
-        <option value="$PROJECT_DIR$/src/zoo_vz02/LandHabitat.java" />
         <option value="$PROJECT_DIR$/src/zoo_vz02/LandHabitatTest.java" />
         <option value="$PROJECT_DIR$/src/zoo_vz02/AirHabitatTest.java" />
         <option value="$PROJECT_DIR$/src/zoo_vz02/WaterHabitat.java" />
@@ -186,21 +594,30 @@
         <option value="$PROJECT_DIR$/src/zoo_vz02/Cell.java" />
         <option value="$PROJECT_DIR$/src/zoo_vz02/CellTest.java" />
         <option value="$PROJECT_DIR$/src/zoo_vz02/CageTest.java" />
-        <option value="$PROJECT_DIR$/src/zoo_vz02/Cage.java" />
         <option value="$PROJECT_DIR$/src/zoo_vz02/Road.java" />
         <option value="$PROJECT_DIR$/src/zoo_vz02/Entrance.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/zoo_vz02/Exit.java" />
         <option value="$PROJECT_DIR$/src/zoo_vz02/Restaurant.java" />
         <option value="$PROJECT_DIR$/src/zoo_vz02/Point.java" />
         <option value="$PROJECT_DIR$/src/animal/Penguin.java" />
-        <option value="$PROJECT_DIR$/src/animal/AfricanElephantTest.java" />
+        <option value="$PROJECT_DIR$/src/zoo_vz02/Cage.java" />
+        <option value="$PROJECT_DIR$/src/zoo/AirHabitat.java" />
         <option value="$PROJECT_DIR$/src/animal/AfricanElephant.java" />
+        <option value="$PROJECT_DIR$/src/animal/AfricanElephantTest.java" />
+        <option value="$PROJECT_DIR$/src/zoo/Cage.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/zoo/Cell.java" />
       </list>
     </option>
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
   <component name="NamedScopeManager">
-    <scope name="Unnamed" pattern="src:zoo_vz02.*" />
+    <scope name="Unnamed" pattern="src:zoo.*" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -240,6 +657,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -280,7 +698,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="zoo_vz02" />
+              <option name="myItemId" value="zoo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -306,21 +724,22 @@
       </pane>
       <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.infernus.idea.checkstyle.CheckStyleConfigurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/jdepend-master/jdepend-master/dist/jdepend-2.9.1.jar" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="zaffzoo_vz02" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -343,7 +762,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Unnamed">
+  <component name="RunManager" selected="Application.jdepend">
     <configuration default="false" name="All in ZaffZoo_VZ02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="ZaffZoo_VZ02" />
@@ -450,6 +869,136 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -464,6 +1013,15 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -508,6 +1066,22 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -541,6 +1115,12 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -569,12 +1149,34 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
     <configuration default="false" name="Unnamed" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="ZaffZoo_VZ02" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="zoo_vz02" />
+      <option name="PACKAGE_NAME" value="zoo" />
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -590,11 +1192,11 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="Unnamed" type="Application" factoryName="Application">
+    <configuration default="false" name="jdepend" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Main" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="jdepend.textui.JDepend src\" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -607,7 +1209,7 @@
     </configuration>
     <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JUnit.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="Application.jdepend" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.All in ZaffZoo_VZ02" />
     </list>
     <recent_temporary>
@@ -629,6 +1231,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1490365619107</updated>
+      <workItem from="1491514674880" duration="563000" />
+      <workItem from="1491541255941" duration="442000" />
     </task>
     <task id="LOCAL-00001" summary="tes intellij">
       <created>1490368908062</created>
@@ -714,16 +1318,17 @@
       <option name="project" value="LOCAL" />
       <updated>1490840008979</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="ntapsparah2">
+      <created>1490840155868</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1490840155868</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_ZaffZoo_VZ02 - 2017.03.26 at 19h 17m 12s.xml">
-      <configuration name="All in ZaffZoo_VZ02" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_ZaffZoo_VZ02 - 2017.03.26 at 19h 28m 39s.xml">
-      <configuration name="All in ZaffZoo_VZ02" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_ZaffZoo_VZ02 - 2017.03.26 at 19h 44m 33s.xml">
       <configuration name="All in ZaffZoo_VZ02" configurationId="JUnit" />
     </history-entry>
@@ -748,6 +1353,15 @@
     <history-entry file="All_in_ZaffZoo_VZ02 - 2017.03.29 at 13h 01m 23s.xml">
       <configuration name="All in ZaffZoo_VZ02" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_ZaffZoo_VZ02 - 2017.03.30 at 10h 31m 03s.xml">
+      <configuration name="All in ZaffZoo_VZ02" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_ZaffZoo_VZ02 - 2017.03.30 at 10h 34m 08s.xml">
+      <configuration name="All in ZaffZoo_VZ02" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1005000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -760,39 +1374,44 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="PlantUML" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.67751706" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8281506" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6687697" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23895253" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21953066" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22108346" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38199696" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.67751706" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24905375" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38199696" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.60065466" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -810,7 +1429,8 @@
     <MESSAGE value="doneparah" />
     <MESSAGE value="ntaps" />
     <MESSAGE value="ntapsparah" />
-    <option name="LAST_COMMIT_MESSAGE" value="ntapsparah" />
+    <MESSAGE value="ntapsparah2" />
+    <option name="LAST_COMMIT_MESSAGE" value="ntapsparah2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -826,56 +1446,21 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ZaffZoo_VZ02.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/PointTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/LandHabitatTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/WaterHabitat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/AirHabitatTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/ExitTest.java">
+    <entry file="file://$PROJECT_DIR$/src/zoo/ExitTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/ParkTest.java">
+    <entry file="file://$PROJECT_DIR$/src/zoo/ParkTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="7" column="61" lean-forward="false" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/RestaurantTest.java">
+    <entry file="file://$PROJECT_DIR$/src/zoo/RestaurantTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
@@ -891,21 +1476,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/EntranceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/zoo/EntranceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
           <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/WaterHabitatTest.java">
+    <entry file="file://$PROJECT_DIR$/src/zoo/WaterHabitatTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/RoadTest.java">
+    <entry file="file://$PROJECT_DIR$/src/zoo/RoadTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
@@ -1038,18 +1623,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/CageTest.java">
+    <entry file="file://$PROJECT_DIR$/src/zoo/CageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/CellTest.java">
+    <entry file="file://$PROJECT_DIR$/src/zoo/CellTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1067,76 +1651,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/Entrance.java">
+    <entry file="file://$PROJECT_DIR$/src/zoo/Entrance.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/Restaurant.java">
+    <entry file="file://$PROJECT_DIR$/src/zoo/Restaurant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="64" lean-forward="false" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/Park.java">
+    <entry file="file://$PROJECT_DIR$/src/zoo/Park.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/Point.java">
+    <entry file="file://$PROJECT_DIR$/src/zoo/Point.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="56" lean-forward="false" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/Road.java">
+    <entry file="file://$PROJECT_DIR$/src/zoo/Road.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/LandHabitat.java">
+    <entry file="file://$PROJECT_DIR$/src/zoo/LandHabitat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/Exit.java">
+    <entry file="file://$PROJECT_DIR$/src/zoo/Exit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="6" column="68" lean-forward="false" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zoo.puml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zoo.puml" />
     <entry file="file://$PROJECT_DIR$/src/animal/Penguin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1144,44 +1708,359 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/AirHabitat.java">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.284/AfricanElephantTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/zoo/AirHabitat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="272">
+          <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding>
+            <element signature="e#388#389#0" expanded="false" />
+            <element signature="e#406#407#0" expanded="false" />
+            <element signature="e#526#527#0" expanded="false" />
+            <element signature="e#545#546#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/Cell.java">
+    <entry file="file://$PROJECT_DIR$/src/animal/AfricanElephant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="91" column="15" lean-forward="false" selection-start-line="91" selection-start-column="15" selection-end-line="91" selection-end-column="15" />
-          <folding />
+        <state relative-caret-position="1326">
+          <caret line="82" column="5" lean-forward="false" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+          <folding>
+            <element signature="e#1651#1652#0" expanded="false" />
+            <element signature="e#1680#1681#0" expanded="false" />
+            <element signature="e#1750#1751#0" expanded="false" />
+            <element signature="e#1776#1777#0" expanded="false" />
+            <element signature="e#1851#1852#0" expanded="false" />
+            <element signature="e#1879#1880#0" expanded="false" />
+            <element signature="e#1940#1941#0" expanded="false" />
+            <element signature="e#1964#1965#0" expanded="false" />
+            <element signature="e#2042#2043#0" expanded="false" />
+            <element signature="e#2073#2074#0" expanded="false" />
+            <element signature="e#2156#2157#0" expanded="false" />
+            <element signature="e#2182#2183#0" expanded="false" />
+            <element signature="e#2263#2264#0" expanded="false" />
+            <element signature="e#2288#2289#0" expanded="false" />
+            <element signature="e#2380#2381#0" expanded="false" />
+            <element signature="e#2409#2410#0" expanded="false" />
+            <element signature="e#2479#2480#0" expanded="false" />
+            <element signature="e#2502#2503#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zoo/PointTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zoo/Cage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+          <folding>
+            <element signature="e#1369#1370#0" expanded="false" />
+            <element signature="e#1395#1396#0" expanded="false" />
+            <element signature="e#1623#1624#0" expanded="false" />
+            <element signature="e#1650#1651#0" expanded="false" />
+            <element signature="e#2111#2112#0" expanded="false" />
+            <element signature="e#2140#2141#0" expanded="false" />
+            <element signature="e#2294#2295#0" expanded="false" />
+            <element signature="e#2322#2323#0" expanded="false" />
+            <element signature="e#2469#2470#0" expanded="false" />
+            <element signature="e#2499#2500#0" expanded="false" />
+            <element signature="e#3186#3187#0" expanded="false" />
+            <element signature="e#3221#3222#0" expanded="false" />
+            <element signature="e#4676#4677#0" expanded="false" />
+            <element signature="e#4705#4706#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3383">
+          <caret line="206" column="40" lean-forward="false" selection-start-line="206" selection-start-column="40" selection-end-line="206" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/animal/AfricanElephantTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="170">
+          <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#269#270#0" expanded="false" />
+            <element signature="e#310#311#0" expanded="false" />
+            <element signature="e#349#350#0" expanded="false" />
+            <element signature="e#387#388#0" expanded="false" />
+            <element signature="e#425#426#0" expanded="false" />
+            <element signature="e#462#463#0" expanded="false" />
+            <element signature="e#500#501#0" expanded="false" />
+            <element signature="e#539#540#0" expanded="false" />
+            <element signature="e#584#585#0" expanded="false" />
+            <element signature="e#626#627#0" expanded="false" />
+            <element signature="e#666#667#0" expanded="false" />
+            <element signature="e#713#714#0" expanded="false" />
+            <element signature="e#752#753#0" expanded="false" />
+            <element signature="e#801#802#0" expanded="false" />
+            <element signature="e#847#848#0" expanded="false" />
+            <element signature="e#927#928#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.284/AfricanElephantTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/animal/AfricanElephant.java">
+    <entry file="file://$PROJECT_DIR$/src/zoo/Cell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="3247">
+          <caret line="193" column="8" lean-forward="false" selection-start-line="193" selection-start-column="8" selection-end-line="193" selection-end-column="8" />
+          <folding>
+            <element signature="e#3053#3054#0" expanded="false" />
+            <element signature="e#3082#3083#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zoo_vz02/Cage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
+    <entry file="uml://MODULES/mdl-ZaffZoo_VZ02">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-ZaffZoo_VZ02</OriginalElement>
+          <nodes>
+            <node x="400.0" y="79.0">lib-groovy-all-2.4.6.jar</node>
+            <node x="137.0" y="79.0">lib-UmlGraph-5.7_2.23-SNAPSHOT</node>
+            <node x="0.0" y="79.0">lib-junit.jar</node>
+            <node x="410.5" y="0.0">mdl-ZaffZoo_VZ02</node>
+            <node x="725.0" y="79.0">lib-JUnit4</node>
+            <node x="596.0" y="79.0">lib-JUnit5</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="mdl-ZaffZoo_VZ02" target="lib-JUnit5">
+              <point x="31.0" y="14.5" />
+              <point x="519.0" y="59.0" />
+              <point x="650.5" y="59.0" />
+              <point x="0.0" y="-14.5" />
+            </edge>
+            <edge source="mdl-ZaffZoo_VZ02" target="lib-junit.jar">
+              <point x="-62.0" y="14.5" />
+              <point x="426.0" y="49.0" />
+              <point x="58.5" y="49.0" />
+              <point x="0.0" y="-14.5" />
+            </edge>
+            <edge source="mdl-ZaffZoo_VZ02" target="lib-JUnit4">
+              <point x="62.0" y="14.5" />
+              <point x="550.0" y="49.0" />
+              <point x="779.5" y="49.0" />
+              <point x="0.0" y="-14.5" />
+            </edge>
+            <edge source="mdl-ZaffZoo_VZ02" target="lib-groovy-all-2.4.6.jar">
+              <point x="0.0" y="14.5" />
+              <point x="0.0" y="-14.5" />
+            </edge>
+            <edge source="mdl-ZaffZoo_VZ02" target="lib-UmlGraph-5.7_2.23-SNAPSHOT">
+              <point x="-31.0" y="14.5" />
+              <point x="457.0" y="59.0" />
+              <point x="258.5" y="59.0" />
+              <point x="0.0" y="-14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.2000000000000002" x="-44.0" y="-28.0" />
+          <SelectedNodes>
+            <node>mdl-ZaffZoo_VZ02</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Test dependencies</Category>
+            <Category>Libraries</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/animal">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>animal</OriginalElement>
+          <nodes>
+            <node x="397.0" y="0.0">animal.IndianPythonTest</node>
+            <node x="145.0" y="370.0">animal.AnoaTest</node>
+            <node x="276.0" y="444.0">animal.Peacock</node>
+            <node x="496.0" y="148.0">animal.PeacockTest</node>
+            <node x="247.0" y="592.0">animal.Anoa</node>
+            <node x="0.0" y="444.0">animal.LionTest</node>
+            <node x="0.0" y="296.0">animal.GorillaTest</node>
+            <node x="335.0" y="148.0">animal.ReindeerTest</node>
+            <node x="594.0" y="296.0">animal.RhinoTest</node>
+            <node x="298.0" y="296.0">animal.WhaleTest</node>
+            <node x="466.0" y="222.0">animal.GirrafeTest</node>
+            <node x="0.0" y="222.0">animal.StingrayTest</node>
+            <node x="116.0" y="666.0">animal.Fox</node>
+            <node x="609.0" y="592.0">animal.Bear</node>
+            <node x="133.0" y="518.0">animal.Girrafe</node>
+            <node x="388.0" y="518.0">animal.Whale</node>
+            <node x="0.0" y="148.0">animal.SeadragonTest</node>
+            <node x="514.0" y="518.0">animal.Panda</node>
+            <node x="288.0" y="370.0">animal.EagleTest</node>
+            <node x="124.0" y="592.0">animal.Zebra</node>
+            <node x="0.0" y="74.0">animal.SalamanderTest</node>
+            <node x="431.0" y="370.0">animal.TigerTest</node>
+            <node x="413.0" y="444.0">animal.Penguin</node>
+            <node x="530.0" y="74.0">animal.WhiteSharkTest</node>
+            <node x="0.0" y="592.0">animal.Rhino</node>
+            <node x="177.0" y="74.0">animal.AfricanElephant</node>
+            <node x="158.0" y="222.0">animal.Salamander</node>
+            <node x="261.0" y="518.0">animal.Gorilla</node>
+            <node x="0.0" y="0.0">animal.AfricanElephantTest</node>
+            <node x="446.0" y="296.0">animal.PandaTest</node>
+            <node x="138.0" y="444.0">animal.BearTest</node>
+            <node x="368.0" y="592.0">animal.Eagle</node>
+            <node x="0.0" y="666.0">animal.Lion</node>
+            <node x="199.0" y="0.0">animal.SquirrelMonkeyTest</node>
+            <node x="171.0" y="148.0">animal.IndianPython</node>
+            <node x="0.0" y="518.0">animal.FoxTest</node>
+            <node x="354.0" y="74.0">animal.SquirrelMonkey</node>
+            <node x="489.0" y="592.0">animal.Tiger</node>
+            <node x="149.0" y="296.0">animal.Seadragon</node>
+            <node x="573.0" y="370.0">animal.Reindeer</node>
+            <node x="550.0" y="444.0">animal.Stingray</node>
+            <node x="0.0" y="370.0">animal.ZebraTest</node>
+            <node x="313.0" y="222.0">animal.WhiteShark</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.813986013986014" x="-11.0" y="225.0" />
+          <SelectedNodes>
+            <node>animal.IndianPythonTest</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="598.0" y="370.0">com</node>
+            <node x="198.0" y="74.0">animal.IndianPythonTest</node>
+            <node x="143.0" y="518.0">animal.AnoaTest</node>
+            <node x="653.0" y="222.0">animal.PeacockTest</node>
+            <node x="139.0" y="592.0">animal.LionTest</node>
+            <node x="492.0" y="222.0">animal.ReindeerTest</node>
+            <node x="296.0" y="444.0">animal.RhinoTest</node>
+            <node x="0.0" y="444.0">animal.WhaleTest</node>
+            <node x="150.0" y="370.0">animal.GirrafeTest</node>
+            <node x="0.0" y="814.0">animal.Fox</node>
+            <node x="464.0" y="0.0">groovyjarjarasm</node>
+            <node x="442.0" y="444.0">java</node>
+            <node x="0.0" y="370.0">javax</node>
+            <node x="699.0" y="148.0">animal.SeadragonTest</node>
+            <node x="518.0" y="666.0">animal.Panda</node>
+            <node x="286.0" y="518.0">animal.EagleTest</node>
+            <node x="0.0" y="740.0">animal.Zebra</node>
+            <node x="469.0" y="296.0">javafx</node>
+            <node x="353.0" y="148.0">animal.WhiteSharkTest</node>
+            <node x="770.0" y="666.0">animal.Rhino</node>
+            <node x="158.0" y="296.0">oracle</node>
+            <node x="563.0" y="74.0">animal.AfricanElephant</node>
+            <node x="133.0" y="666.0">junit3.8.1</node>
+            <node x="391.0" y="666.0">animal.Gorilla</node>
+            <node x="277.0" y="592.0">animal.BearTest</node>
+            <node x="384.0" y="74.0">META-INF</node>
+            <node x="123.0" y="740.0">animal.Eagle</node>
+            <node x="605.0" y="740.0">animal.Lion</node>
+            <node x="0.0" y="74.0">animal.SquirrelMonkeyTest</node>
+            <node x="331.0" y="222.0">groovy</node>
+            <node x="0.0" y="666.0">animal.FoxTest</node>
+            <node x="167.0" y="222.0">animal.IndianPython</node>
+            <node x="177.0" y="148.0">animal.SquirrelMonkey</node>
+            <node x="485.0" y="740.0">animal.Tiger</node>
+            <node x="300.0" y="370.0">animal.Seadragon</node>
+            <node x="0.0" y="0.0">groovyjarjarcommonscli</node>
+            <node x="253.0" y="0.0">groovyjarjarantlr</node>
+            <node x="623.0" y="296.0">animal.WhiteShark</node>
+            <node x="528.0" y="148.0">netscape</node>
+            <node x="415.0" y="592.0">animal.Peacock</node>
+            <node x="244.0" y="740.0">animal.Anoa</node>
+            <node x="449.0" y="370.0">animal.GorillaTest</node>
+            <node x="732.0" y="444.0">sun</node>
+            <node x="0.0" y="296.0">animal.StingrayTest</node>
+            <node x="721.0" y="740.0">animal.Bear</node>
+            <node x="263.0" y="666.0">animal.Girrafe</node>
+            <node x="644.0" y="666.0">animal.Whale</node>
+            <node x="0.0" y="148.0">animal.SalamanderTest</node>
+            <node x="0.0" y="518.0">zoo</node>
+            <node x="571.0" y="518.0">animal.TigerTest</node>
+            <node x="552.0" y="592.0">animal.Penguin</node>
+            <node x="746.0" y="370.0">junit</node>
+            <node x="429.0" y="518.0">org</node>
+            <node x="314.0" y="296.0">animal.Salamander</node>
+            <node x="673.0" y="0.0">animal.AfricanElephantTest</node>
+            <node x="0.0" y="222.0">jdepend</node>
+            <node x="148.0" y="444.0">animal.PandaTest</node>
+            <node x="713.0" y="518.0">jdk</node>
+            <node x="0.0" y="592.0">animal.Reindeer</node>
+            <node x="689.0" y="592.0">animal.Stingray</node>
+            <node x="587.0" y="444.0">animal.ZebraTest</node>
+            <node x="365.0" y="740.0">Main</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-48.0" y="266.0" />
+          <SelectedNodes>
+            <node>com</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/zoo">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>zoo</OriginalElement>
+          <nodes>
+            <node x="161.0" y="148.0">zoo.LandHabitat</node>
+            <node x="236.0" y="444.0">zoo.Cell</node>
+            <node x="0.0" y="74.0">zoo.RestaurantTest</node>
+            <node x="349.0" y="444.0">zoo.Exit</node>
+            <node x="120.0" y="444.0">zoo.Park</node>
+            <node x="389.0" y="370.0">zoo.Cage</node>
+            <node x="0.0" y="444.0">zoo.Road</node>
+            <node x="147.0" y="222.0">zoo.PointTest</node>
+            <node x="340.0" y="74.0">zoo.WaterHabitat</node>
+            <node x="0.0" y="222.0">zoo.AirHabitat</node>
+            <node x="135.0" y="370.0">zoo.ExitTest</node>
+            <node x="142.0" y="296.0">zoo.Entrance</node>
+            <node x="268.0" y="370.0">zoo.Point</node>
+            <node x="281.0" y="296.0">zoo.ParkTest</node>
+            <node x="0.0" y="148.0">zoo.EntranceTest</node>
+            <node x="0.0" y="0.0">zoo.WaterHabitatTest</node>
+            <node x="0.0" y="370.0">zoo.CellTest</node>
+            <node x="290.0" y="222.0">zoo.CageTest</node>
+            <node x="171.0" y="74.0">zoo.AirHabitatTest</node>
+            <node x="185.0" y="0.0">zoo.LandHabitatTest</node>
+            <node x="319.0" y="148.0">zoo.Restaurant</node>
+            <node x="0.0" y="296.0">zoo.RoadTest</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="524.0" y="88.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
         </state>
       </provider>
     </entry>
@@ -1243,6 +2122,18 @@
               <list>
                 <option value="0.2" />
                 <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>

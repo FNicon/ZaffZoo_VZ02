@@ -12,7 +12,7 @@ public class GirrafeTest {
 	}
 
 	@Test
-	public void testGetRender() {
+	public void testgetRender() {
 		assertEquals(A.getRender(),'Q');
 	}
 
@@ -37,7 +37,7 @@ public class GirrafeTest {
 	}
 
 	@Test
-	public void testGetFamili() {
+	public void testGetfamili() {
 		assertEquals(A.getFamili(),"Girrafidae");
 	}
 
@@ -47,7 +47,7 @@ public class GirrafeTest {
 	}
 
 	@Test
-	public void testGetType() {
+	public void testgetType() {
 		int [] test = new int[3];
 		test[0] = 1;
 		test[1] = 0;

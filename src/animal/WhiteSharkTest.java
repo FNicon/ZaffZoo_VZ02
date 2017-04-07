@@ -12,7 +12,7 @@ public class WhiteSharkTest {
 	}
 
 	@Test
-	public void testGetRender() {
+	public void testgetRender() {
 		assertEquals(A.getRender(),'o');
 	}
 
@@ -37,7 +37,7 @@ public class WhiteSharkTest {
 	}
 
 	@Test
-	public void testGetFamili() {
+	public void testGetfamili() {
 		assertEquals(A.getFamili(),"Selachimorpha");
 	}
 
@@ -47,7 +47,7 @@ public class WhiteSharkTest {
 	}
 
 	@Test
-	public void testGetType() {
+	public void testgetType() {
 		int [] test = new int[3];
 		test[0] = 0;
 		test[1] = 0;

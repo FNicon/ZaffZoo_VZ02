@@ -1,5 +1,10 @@
 package animal;
 
+import org.junit.Test;
+
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class AfricanElephantTest {
 	AfricanElephant A = new AfricanElephant();
 	@Test
@@ -8,7 +13,7 @@ public class AfricanElephantTest {
 	}
 
 	@Test
-	public void testGetRender() {
+	public void testgetRender() {
 		assertEquals(A.getRender(),'z');
 	}
 
@@ -33,7 +38,7 @@ public class AfricanElephantTest {
 	}
 
 	@Test
-	public void testGetFamili() {
+	public void testGetfamili() {
 		assertEquals(A.getFamili(),"Elephantidae");
 	}
 
@@ -43,8 +48,8 @@ public class AfricanElephantTest {
 	}
 
 	@Test
-	public void testGetType() {
-		int [] test = new int[3];
+	public void testgetType() {
+		int[] test = new int[3];
 		test[0] = 1;
 		test[1] = 0;
 		test[2] = 0;
