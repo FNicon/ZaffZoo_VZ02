@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JUnit5"/>
+	<classpathentry kind="var" path="APPLICATION_HOME_DIR/lib/groovy-all-2.4.6.jar"/>
+	<classpathentry kind="lib" path="lib/junit.jar"/>
+	<classpathentry kind="lib" path="lib/junit-4.12.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JUnit5"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/UmlGraph-5.7_2.23-SNAPSHOT"/>
+	<classpathentry kind="output" path="out/production/ZaffZoo_VZ02"/>
+</classpath>

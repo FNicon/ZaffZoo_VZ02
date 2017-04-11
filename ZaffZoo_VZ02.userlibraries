@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="JUnit5">
+    <archive path="C:/Program Files (x86)/JetBrains/IntelliJ IDEA Community Edition 2017.1/plugins/junit/lib/junit-jupiter-api-5.0.0-M3.jar" />
+    <archive path="C:/Program Files (x86)/JetBrains/IntelliJ IDEA Community Edition 2017.1/plugins/junit/lib/opentest4j-1.0.0-M1.jar" />
+  </library>
+  <library name="UmlGraph-5.7_2.23-SNAPSHOT">
+    <archive path="C:/Users/lenovo/IdeaProjects/ZaffZoo_VZ02/lib/UmlGraph-5.7_2.23-SNAPSHOT.jar" />
+  </library>
+</eclipse-userlibraries>
+
